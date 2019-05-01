@@ -1,0 +1,422 @@
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+  #title1{ font-size: 20px}
+  #stext{font-size: 12px}
+  #contact-icon{
+  padding: 2px;
+  font-size: 10px;
+  width: 20px;
+  text-decoration: none;
+  border-radius: 50%;
+  }
+}
+
+.site-footer
+{
+  background-color:#f96d3e;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#f9eded;
+  font-family: 'Poppins','Raleway','PT Sans','Source Sans Pro', 'Cuprum','Amaranth','Roboto Condensed', sans-serif;
+}
+.site-footer hr
+{
+  border-color: #ffffff;
+  border-width:1px; 
+  opacity: 0.7;
+
+}
+
+.site-footer h6
+{
+  color:#ffffff;
+  font-size:22px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+  font-family:'Cuprum', 'Amaranth', sans-serif;
+}
+.site-footer a
+{
+  color:#ffffff;
+}
+.site-footer a:hover
+{
+  color:#fcbdbd;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#ffffff
+  font-size: 30px;
+
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#fcbdbd;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+#contact-icon{
+  padding: 3px;
+  font-size: 10px;
+  width: 25px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.copyright-text
+{
+  margin:0
+}
+@media screen and (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+  body{
+    overflow: auto;
+  }
+}
+@media screen and (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0;
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+   .row.content 
+  {
+    height: auto;
+  } 
+  .text {font-size: 11px}
+  #title1{ font-size: 26px}
+  #stext{font-size: 14px}
+ 
+  }
+
+}
+
+
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+    background-color: #ffffff;
+  }
+
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    
+.divider {
+    border-color: #000;
+    border-style: solid;
+    border-width: 0 0 1px;
+    height: 10px;
+    line-height: 20px;
+    text-align:center;
+    overflow: visable;
+}
+
+.divider span {
+    background-color: #FFF;
+    display: inline-block;
+    padding: 0 10px;
+    min-height: 20px;
+    min-width: 10%;
+
+}
+    
+/*
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cuprum', sans-serif;
+font-family: 'Cardo', serif;
+font-family: 'Amaranth', sans-serif;
+*/ 
+
+
+
+ /* font-family:'Cuprum', 'Amaranth', sans-serif;*/
+
+.col-sm-9 h2{
+font-family:'Cuprum', 'Amaranth', sans-serif;
+font-size: 30px;
+color: #f96d3e;
+
+}
+
+.col-sm-9 p{
+  font-family: 'Poppins','Cuprum','Raleway',sans-serif;
+  font-size:17px;
+  color: #000000;
+}
+
+.col-sm-9 ol{
+  font-family: 'Raleway','Poppins','Cuprum',sans-serif;
+  font-size:14px;
+  color: #15213f;
+}
+
+.col-sm-9 h5{
+font-family: 'Amaranth' , 'Poppins',sans-serif;
+font-size: 14px;
+color: #15213f;
+}
+
+.boxed
+{
+  /*border: 1px solid black;*/
+  border-image: url(border.png) 30 round;
+}
+
+.boxed h4 {
+  font-family:'Poppins','Rubik Mono One','Cuprum', 'Amaranth', sans-serif;
+  color:#f96d3e ;
+  font-size: 26px;
+}
+
+.boxed h6{
+  font-family: 'Cuprum', 'Amaranth', sans-serif;
+  font-size:14px;
+  color:#ffae7c;
+}
+
+.boxed a{
+  font-family:'Amaranth', 'Cuprum', sans-serif;
+  color: #f4b790;
+  font-size:20px;
+}
+
+.boxed p{
+  font-family:'Amaranth', 'Cuprum', sans-serif;
+  color:#ef8c3b; 
+  font-size:16px;
+  text-align: center;
+}
+
+.boxed h3{
+  font-family: 'Raleway','Amaranth', 'Cuprum', sans-serif;
+  font-size:22px;
+  color:#ef883b;
+  text-align: center;
+}
+
+.boxed h2{
+  font-family:  'Cuprum', 'Amaranth', sans-serif;
+  font-size:24px;
+  color:#ff8000;
+  text-align: center;
+  border: 2px solid orange;
+}
+
+hr{
+  border: 3px solid orange;
+}
+
+.col-sm-9 h4{
+  font-family: 'Source Sans Pro','Raleway','PT Sans','Poppins', 'Cuprum','Amaranth',sans-serif; 
+  color: #f4a875;
+}
+.navbar-header a{
+  font-family:'Cuprum', 'Amaranth', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+
+
+
+.container-fluid{
+  background-color:#f96d3e ;
+}
+.container-fluid a{
+  background-color:#f96d3e;
+}
+
+#myNavbar li a{
+  font-family:'Cuprum', 'Amaranth', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+
+/**font-family: 'Source Sans Pro','Raleway','PT Sans','Poppins', 'Cuprum','Amaranth','Roboto Condensed', sans-serif;
+font-family: 'Merriweather','Slabo 27px', serif;**/
+
+
+#title0{
+  font-family: 'Rubik Mono One','Cuprum', 'Amaranth', sans-serif;
+  color: #f96d3e;
+  font-size: 36px;
+}
+#title1{
+  font-family:'Rubik Mono One','Cuprum', 'Amaranth', sans-serif;
+  color: #ff794c;
+  font-size: 30px;
+}
+
+#stext{
+  font-family:'Amaranth','Raleway','Cuprum', sans-serif;
+  font-size: 16px;
+}
+
+#stext a{
+  color: #fca758;
+
+}
+#webh4{
+  font-size: 20px;
+  color: #152154;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+#abouth3{
+  font-family: 'Slabo 27px','Merriweather', serif;
+  font-size: 25px;
+}
+
+#aboutp{
+  font-family:'Cuprum', 'Amaranth', sans-serif;
+  font-size: 16px;
+}
+
+.first-letra
+{
+  font-family:'Cuprum', 'Amaranth', sans-serif;
+  font-size: 16px;
+}
+
+#fl{
+  color: #f97e18;
+}
+
+
+#middleabout{
+  font-family:'Amaranth','Cuprum', sans-serif;
+  font-size: 20px;
+}
+
+.fa {
+  padding: 7px;
+  font-size: 20px;
+  width: 40px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #f96d3e;
+  color: white;
+}
+.fa-instagram{
+  background:#f96d3e;
+  color: white;
+}
+
+.fa-github{
+  background: #f96d3e;
+  color: white;
+}
+.fa-linkedin{
+  background:#f96d3e ;
+  color:white;
+}
+.fa-envelope{
+  background: #f96d3e;
+  color:white;
+}
+
+#labelgithub {
+  background-color: #000000;
+}
+
+#labelgithub a{
+  color: #ffffff;
+  background-color: #000000;
+}
