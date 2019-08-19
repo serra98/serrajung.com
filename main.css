@@ -68,11 +68,11 @@ img {vertical-align: middle;}
 
 .site-footer
 {
-  background-color:#f96d3e;
+  background-color: #ffffff;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#f9eded;
+  color:#000000;
   font-family: 'Poppins','Raleway','PT Sans','Source Sans Pro', 'Cuprum','Amaranth','Roboto Condensed', sans-serif;
 }
 .site-footer hr
@@ -85,7 +85,7 @@ img {vertical-align: middle;}
 
 .site-footer h6
 {
-  color:#ffffff;
+  color:#000000;
   font-size:22px;
   text-transform:uppercase;
   margin-top:5px;
@@ -94,11 +94,11 @@ img {vertical-align: middle;}
 }
 .site-footer a
 {
-  color:#ffffff;
+  color:#000000;
 }
 .site-footer a:hover
 {
-  color:#fcbdbd;
+  color:#949494;
   text-decoration:none;
 }
 .footer-links
@@ -112,13 +112,13 @@ img {vertical-align: middle;}
 }
 .footer-links a
 {
-  color:#ffffff
+  color:#000000
   font-size: 30px;
 
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#fcbdbd;
+  color:#949494;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -196,7 +196,7 @@ img {vertical-align: middle;}
 }
 
 .divider span {
-    background-color: #FFF;
+    background-color: #000;
     display: inline-block;
     padding: 0 10px;
     min-height: 20px;
@@ -219,7 +219,7 @@ font-family: 'Amaranth', sans-serif;
 .col-sm-9 h2{
 font-family:'Cuprum', 'Amaranth', sans-serif;
 font-size: 30px;
-color: #f96d3e;
+color:: #000000;
 
 }
 
@@ -232,13 +232,13 @@ color: #f96d3e;
 .col-sm-9 ol{
   font-family: 'Raleway','Poppins','Cuprum',sans-serif;
   font-size:14px;
-  color: #15213f;
+  color: #000000;
 }
 
 .col-sm-9 h5{
 font-family: 'Amaranth' , 'Poppins',sans-serif;
 font-size: 14px;
-color: #15213f;
+color: #000000;
 }
 
 .boxed
@@ -249,25 +249,25 @@ color: #15213f;
 
 .boxed h4 {
   font-family:'Poppins','Rubik Mono One','Cuprum', 'Amaranth', sans-serif;
-  color:#f96d3e ;
+  color: #000000 ;
   font-size: 26px;
 }
 
 .boxed h6{
   font-family: 'Cuprum', 'Amaranth', sans-serif;
   font-size:14px;
-  color:#ffae7c;
+  color:#000000;
 }
 
 .boxed a{
   font-family:'Amaranth', 'Cuprum', sans-serif;
-  color: #f4b790;
+  color: #949494;
   font-size:20px;
 }
 
 .boxed p{
   font-family:'Amaranth', 'Cuprum', sans-serif;
-  color:#ef8c3b; 
+  color:#000000; 
   font-size:16px;
   text-align: center;
 }
@@ -275,29 +275,29 @@ color: #15213f;
 .boxed h3{
   font-family: 'Raleway','Amaranth', 'Cuprum', sans-serif;
   font-size:22px;
-  color:#ef883b;
+  color:#000000;
   text-align: center;
 }
 
 .boxed h2{
   font-family:  'Cuprum', 'Amaranth', sans-serif;
   font-size:24px;
-  color:#ff8000;
+  color:#000000;
   text-align: center;
-  border: 2px solid orange;
+  border: 2px solid black;
 }
 
 hr{
-  border: 3px solid orange;
+  border: 3px solid black;
 }
 
 .col-sm-9 h4{
   font-family: 'Source Sans Pro','Raleway','PT Sans','Poppins', 'Cuprum','Amaranth',sans-serif; 
-  color: #f4a875;
+  color: #000000;
 }
 .navbar-header a{
   font-family:'Cuprum', 'Amaranth', sans-serif;
-  color: #ffffff;
+  color: #000000;
   font-size: 24px;
 }
 
@@ -305,15 +305,12 @@ hr{
 
 
 .container-fluid{
-  background-color:#f96d3e ;
-}
-.container-fluid a{
-  background-color:#f96d3e;
+  background-color: #ffffff;
 }
 
 #myNavbar li a{
   font-family:'Cuprum', 'Amaranth', sans-serif;
-  color: #ffffff;
+  color: #000000;
   font-size: 24px;
 }
 
@@ -324,12 +321,13 @@ font-family: 'Merriweather','Slabo 27px', serif;**/
 
 #title0{
   font-family: 'Rubik Mono One','Cuprum', 'Amaranth', sans-serif;
-  color: #f96d3e;
+  color: #000000;
   font-size: 36px;
 }
+
 #title1{
   font-family:'Rubik Mono One','Cuprum', 'Amaranth', sans-serif;
-  color: #ff794c;
+  color: #000000;
   font-size: 30px;
 }
 
@@ -339,12 +337,12 @@ font-family: 'Merriweather','Slabo 27px', serif;**/
 }
 
 #stext a{
-  color: #fca758;
+  color: #636363;
 
 }
 #webh4{
   font-size: 20px;
-  color: #152154;
+  color: #333333;
   font-family: 'Rubik Mono One', sans-serif;
 }
 
@@ -365,7 +363,7 @@ font-family: 'Merriweather','Slabo 27px', serif;**/
 }
 
 #fl{
-  color: #f97e18;
+  color: #000000;
 }
 
 
@@ -391,24 +389,24 @@ font-family: 'Merriweather','Slabo 27px', serif;**/
 
 /* Facebook */
 .fa-facebook {
-  background: #f96d3e;
+  background:: #ffffff;
   color: white;
 }
 .fa-instagram{
-  background:#f96d3e;
+  background: #ffffff;
   color: white;
 }
 
 .fa-github{
-  background: #f96d3e;
+  background:: #ffffff;
   color: white;
 }
 .fa-linkedin{
-  background:#f96d3e ;
+  background: #ffffff ;
   color:white;
 }
 .fa-envelope{
-  background: #f96d3e;
+  background:: #ffffff;
   color:white;
 }
 
